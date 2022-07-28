@@ -11,7 +11,15 @@
     font-family: 'Nunito', sans-serif;
 }
 
-/* custom width */
-.width-custom{
-    width: ;
+/* custom classes */
+.dark-shade{
+    filter: brightness(50%);
+    max-height: 600px;
+}
+.height-slider{
+    height: 500px ;
+}
+
+.height-captions{
+    height: 30vh;
 }
