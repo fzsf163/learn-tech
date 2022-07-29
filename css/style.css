@@ -23,3 +23,25 @@
 .height-captions{
     height: 30vh;
 }
+.height-captions-2{
+    height: 30vh;
+}
+.font-height{
+    height: 1em;
+}
+
+@media screen and (max-width:576px) {
+
+    .font-height{
+        height: 0.2em;
+    }
+    .height-captions{
+        height: 10vh;
+        position: absolute;
+        top: 1%;
+    }
+    .height-captions-2{
+        height: 26vh;
+    }
+    
+}
